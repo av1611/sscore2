@@ -3,8 +3,7 @@ shinyUI(fluidPage(
     titlePanel("Credit risk assesment using public datasets"),
     
     fluidRow(
-        p('The objective of this project is to assess the credit risk using public credit scoring datasets.
-        The datasets were selected such that they contain similar structure and features.
+        p('Assessing a credit risk value using public datasets.
         Using each dataset credit scoring model is created using a random forest.
         Then all the models are combined with the objective to have a better credit risk estimator.')
     ),
